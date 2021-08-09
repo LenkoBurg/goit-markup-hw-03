@@ -1,0 +1,277 @@
+.body {
+    font-family: Roboto;
+    color: #757575;
+}
+ul {list-style: none;}
+
+/* global */
+.logo {
+    width: 145px;
+    height: 31px;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: black;
+    text-decoration: none;
+}
+.web {color: #2196F3;}
+/* logo */
+.style-nav .link-main {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #2196F3;
+    text-decoration: none;
+    list-style: none;
+}
+.style-nav .link {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #212121;
+    text-decoration: none;
+    list-style: none;
+}
+.style-nav .link:hover,
+.style-nav .link:focus {
+    color: #2196F3;
+}
+.auth-nav .linknav {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    list-style: none;
+    color: #757575;
+}
+.auth-nav .linknav:focus,
+.auth-nav .linknav:hover {
+    color: #2196F3;
+}
+/* header */
+.main-title {
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+.main-title .title {
+    margin-top: 0px;
+    font-size: 44px;
+    line-height: 60px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 0.06em
+}
+.button {
+    
+    font-family: "Roboto";
+    border-radius: 4px;
+    background-color: #f5f4fa;
+    color: black;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    cursor: pointer;
+}
+.button:hover {
+background-color: #2196F3;
+color: #FFFFFF;
+cursor: pointer;
+}
+/* effect button */
+.hero .list {
+    font-size: 14px;
+    line-height: 24px;
+}
+.hero .headlines {
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+    font-weight: 700;
+}
+/* skills */
+.our-team {
+    background-color: #F5F4FA;
+}
+.main-headlines {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #212121;
+}
+.employee {
+    width: 270px;
+    height: 368px;
+    left: 515px;
+    top: 1635px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.workers {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #212121;
+}
+.positions {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    text-align: center;
+}
+/* our team */
+.downfooter {
+    background-color: #2F303A;
+}
+.logodown {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.web {
+    color: #2196F3;
+}
+.address {
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.downfooter .linknav {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    list-style: none;
+    color: #757575;
+}
+.downfooter .linknav:focus,
+.downfooter .linknav:hover {
+    color: #2196F3;
+}
+/* footeer */
+
+
+/* Portfolio */
+
+.logo {
+    width: 145px;
+    height: 31px;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: black;
+    text-decoration: none;
+}
+.web {
+    color: #2196F3;
+}
+.style-nav .link-current {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #2196F3;
+    text-decoration: none;
+    list-style: none;
+}
+.style-nav .link {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #212121;
+    text-decoration: none;
+    list-style: none;
+}
+.style-nav .link:hover,
+.style-nav .link:focus {
+    color: #2196F3;}
+    .auth-nav .linknav-port {
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 500;
+        text-decoration: none;
+        list-style: none;
+        color: #757575;
+    }
+    .auth-nav .linknav:focus,
+    .auth-nav .linknav:hover {
+        color: #2196F3;
+    }    
+.portfolio-nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
+}
+  /* header-portfolio */
+.button-port {
+    
+        font-family: "Roboto";
+        border-radius: 4px;
+        background-color: #f5f4fa;
+        color: black;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        cursor: pointer;
+    }
+.button-port:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+        cursor: pointer;
+    }
+/* buttons portfolio */
+.image-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    color: #212121;
+}
+.description {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+/*assortment */
+
+.logodown-port {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.web {
+    color: #2196F3;
+}
+.downfooter-port {
+    background-color: #2F303A;
+}
+.address-port {
+    color: #FFFFFF;
+}
+.downfooter-port .linknav-port {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    list-style: none;
+}
+.downfooter-potr .linknav-port:focus,
+.downfooter-port .linknav-port:hover {
+    color: #2196F3;
+}
