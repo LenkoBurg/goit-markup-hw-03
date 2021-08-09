@@ -1,6 +1,7 @@
 .body {
     font-family: Roboto;
     color: #757575;
+    margin: 0px;
 }
 ul {list-style: none;}
 
@@ -54,17 +55,17 @@ ul {list-style: none;}
 .main-title {
     background-color: #2F303A;
     color: #FFFFFF;
+    text-align: center;
 }
 .main-title .title {
+    margin-bottom: 30px;
     margin-top: 0px;
     font-size: 44px;
     line-height: 60px;
     font-weight: 900;
-    text-align: center;
     letter-spacing: 0.06em
 }
 .button {
-    
     font-family: "Roboto";
     border-radius: 4px;
     background-color: #f5f4fa;
@@ -77,6 +78,7 @@ ul {list-style: none;}
     left: 700px;
     top: 430px;
     cursor: pointer;
+    display: inline-block;
 }
 .button:hover {
 background-color: #2196F3;
