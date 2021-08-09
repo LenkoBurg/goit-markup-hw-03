@@ -56,8 +56,10 @@ ul {list-style: none;}
     background-color: #2F303A;
     color: #FFFFFF;
     text-align: center;
+    margin-bottom: 94px;
 }
 .main-title .title {
+    padding-top: 200px;
     margin-bottom: 30px;
     margin-top: 0px;
     font-size: 44px;
@@ -66,6 +68,7 @@ ul {list-style: none;}
     letter-spacing: 0.06em
 }
 .button {
+    margin-bottom: 200px;
     font-family: "Roboto";
     border-radius: 4px;
     background-color: #f5f4fa;
@@ -86,15 +89,21 @@ color: #FFFFFF;
 cursor: pointer;
 }
 /* effect button */
+.hero {
+    margin-top: 0px;
+}
 .hero .list {
     font-size: 14px;
     line-height: 24px;
+    margin-top: 0px;
 }
 .hero .headlines {
     font-size: 14px;
     line-height: 16px;
     color: #212121;
     font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 /* skills */
 .our-team {
@@ -105,6 +114,7 @@ cursor: pointer;
     line-height: 42px;
     font-weight: 700;
     color: #212121;
+    margin-top: 94px;
 }
 .employee {
     width: 270px;
