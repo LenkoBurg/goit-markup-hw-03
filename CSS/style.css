@@ -1,289 +1,423 @@
 .body {
-    font-family: Roboto;
-    color: #757575;
-    margin: 0px;
+  font-family: Roboto;
+  color: #757575;
+  margin: 0px;
 }
-ul {list-style: none;}
+ul {
+  list-style: none;
+}
 
 /* global */
 .logo {
-    width: 145px;
-    height: 31px;
-    font-family: Raleway;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: black;
-    text-decoration: none;
+  margin-left: 215px;
+  margin-bottom: 25px;
+  margin-top: 24px;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
 }
-.web {color: #2196F3;}
+.web {
+  color: #2196f3;
+}
 /* logo */
+.style-nav {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+.style-nav .link {
+  margin-left: 50px;
+}
 .style-nav .link-main {
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: 500;
-    color: #2196F3;
-    text-decoration: none;
-    list-style: none;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #2196f3;
+  text-decoration: none;
+  list-style: none;
+  display: block;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 93px;
 }
 .style-nav .link {
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: 500;
-    color: #212121;
-    text-decoration: none;
-    list-style: none;
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #2f303a;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .style-nav .link:hover,
 .style-nav .link:focus {
-    color: #2196F3;
+  color: #2196f3;
 }
 .auth-nav .linknav {
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: 500;
-    text-decoration: none;
-    list-style: none;
-    color: #757575;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+  color: #757575;
 }
 .auth-nav .linknav:focus,
 .auth-nav .linknav:hover {
-    color: #2196F3;
+  color: #2196f3;
+}
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  margin-right: 215px;
+}
+.auth-nav .linknav-list + .linknav-list {
+  margin-left: 50px;
+}
+div {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  justify-content: center;
+}
+.counteiner {
+  display: flex;
+}
+.header-box {
+  height: 80px;
 }
 /* header */
 .main-title {
-    background-color: #2F303A;
-    color: #FFFFFF;
-    text-align: center;
-    margin-bottom: 94px;
+  background-color: #2f303a;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 94px;
 }
 .main-title .title {
-    padding-top: 200px;
-    margin-bottom: 30px;
-    margin-top: 0px;
-    font-size: 44px;
-    line-height: 60px;
-    font-weight: 900;
-    letter-spacing: 0.06em
+  padding-top: 200px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  font-size: 44px;
+  line-height: 60px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
 }
 .button {
-    margin-bottom: 200px;
-    font-family: "Roboto";
-    border-radius: 4px;
-    background-color: #f5f4fa;
-    color: black;
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 700;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
-    cursor: pointer;
-    display: inline-block;
+  margin-bottom: 200px;
+  font-family: 'Roboto';
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  color: black;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  cursor: pointer;
+  display: inline-block;
 }
 .button:hover {
-background-color: #2196F3;
-color: #FFFFFF;
-cursor: pointer;
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
 }
 /* effect button */
 .hero {
-    margin-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
 }
-.hero .list {
-    font-size: 14px;
-    line-height: 24px;
-    margin-top: 0px;
+.hero .list + .list {
+  margin-left: 30px;
+}
+.hero .plist {
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 270px;
+  height: 75px;
 }
 .hero .headlines {
-    font-size: 14px;
-    line-height: 16px;
-    color: #212121;
-    font-weight: 700;
-    margin-top: 0px;
-    margin-bottom: 10px;
-}
-/* skills */
-.our-team {
-    background-color: #F5F4FA;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 .main-headlines {
-    font-size: 36px;
-    line-height: 42px;
-    font-weight: 700;
-    color: #212121;
-    margin-top: 94px;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #212121;
+  margin-top: 94px;
+  margin-bottom: 50px;
+  text-align: center;
 }
+/* skills */
+.all-employee {
+  padding-bottom: 94px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+}
+.all-employee .employee + .employee {
+  margin-left: 30px;
+}
+.images {
+  margin-top: 0px;
+  margin-bottom: 94px;
+  display: flex;
+  justify-content: center;
+  padding-left: 0px;
+}
+.images .img-list + .img-list {
+  margin-left: 30px;
+}
+.our-team {
+  background-color: #f5f4fa;
+  padding-top: 94px;
+}
+.main-headlines-bot {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #212121;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-top: 0px;
+}
+
 .employee {
-    width: 270px;
-    height: 368px;
-    left: 515px;
-    top: 1635px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  width: 270px;
+  height: 368px;
+  left: 515px;
+  top: 1635px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .workers {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #212121;
 }
 .positions {
-    font-size: 16px;
-    line-height: 19px;
-    font-weight: 400;
-    text-align: center;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  text-align: center;
 }
 /* our team */
 .downfooter {
-    background-color: #2F303A;
+  background-color: #2f303a;
 }
 .logodown {
-    font-family: Raleway;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-    text-decoration: none;
+  margin-bottom: 20px;
+  margin-left: 215px;
+  margin-top: 60px;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
 }
 .web {
-    color: #2196F3;
+  color: #2196f3;
 }
 .address {
-    font-size: 14px;
-    line-height: 24px;
-    color: #FFFFFF;
-    font-weight: 400;
+  margin-bottom: 0px;
+  margin-left: 215px;
+  margin-top: 0px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 400;
 }
-.downfooter .linknav {
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: 500;
-    text-decoration: none;
-    list-style: none;
-    color: #757575;
+.footer-list {
+  padding-left: 0px;
+  margin-top: 0px;
+  padding-bottom: 60px;
+  margin-bottom: 0px;
+}
+.linknav-footer {
+  margin-top: 9px;
+  margin-left: 215px;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+  color: #757575;
+  display: inline-block;
 }
 .downfooter .linknav:focus,
 .downfooter .linknav:hover {
-    color: #2196F3;
+  color: #2196f3;
 }
 /* footeer */
-
 
 /* Portfolio */
 
 .logo {
-    width: 145px;
-    height: 31px;
-    font-family: Raleway;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: black;
-    text-decoration: none;
+  width: 145px;
+  height: 31px;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: black;
+  text-decoration: none;
 }
 .web {
-    color: #2196F3;
+  color: #2196f3;
 }
 .style-nav .link-current {
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: 500;
-    color: #2196F3;
-    text-decoration: none;
-    list-style: none;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #2196f3;
+  text-decoration: none;
+  list-style: none;
 }
-.style-nav .link {
-    font-size: 14px;
-    line-height: 16px;
-    font-weight: 500;
-    color: #212121;
-    text-decoration: none;
-    list-style: none;
+.style-nav .link-port {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #212121;
+  text-decoration: none;
+  list-style: none;
 }
-.style-nav .link:hover,
-.style-nav .link:focus {
-    color: #2196F3;}
-    .auth-nav .linknav-port {
-        font-size: 14px;
-        line-height: 16px;
-        font-weight: 500;
-        text-decoration: none;
-        list-style: none;
-        color: #757575;
-    }
-    .auth-nav .linknav:focus,
-    .auth-nav .linknav:hover {
-        color: #2196F3;
-    }    
+.style-nav .link-port:hover,
+.style-nav .link-port:focus {
+  color: #2196f3;
+}
+.auth-nav .linknav-port {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+  color: #757575;
+}
+.auth-nav .linknav:focus,
+.auth-nav .linknav:hover {
+  color: #2196f3;
+}
 .portfolio-nav {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
-  /* header-portfolio */
+/* header-portfolio */
+.btns {
+  margin-top: 94px;
+  margin-bottom: 50px;
+  text-align: center;
+}
 .button-port {
-    
-        font-family: "Roboto";
-        border-radius: 4px;
-        background-color: #f5f4fa;
-        color: black;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        cursor: pointer;
-    }
+  font-family: 'Roboto';
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  cursor: pointer;
+}
 .button-port:hover {
-    background-color: #2196F3;
-    color: #FFFFFF;
-        cursor: pointer;
-    }
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
 /* buttons portfolio */
 .image-title {
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 36px;
-    color: #212121;
+  margin-left: 24px;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
 }
 .description {
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 400;
+  margin-left: 24px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.imgs {
+  margin-top: 0px;
+  margin-bottom: 94px;
 }
 /*assortment */
 
 .logodown-port {
-    font-family: Raleway;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-    text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-left: 215px;
+  margin-top: 60px;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
 }
 .web {
-    color: #2196F3;
+  color: #2196f3;
 }
 .downfooter-port {
-    background-color: #2F303A;
+  background-color: #2f303a;
 }
 .address-port {
-    color: #FFFFFF;
+  color: #ffffff;
+  margin-left: 215px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .downfooter-port .linknav-port {
-    font-size: 14px;
-    line-height: 24px;
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    list-style: none;
+  display: inline-block;
+  margin-top: 9px;
+  margin-left: 215px;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  list-style: none;
 }
 .downfooter-potr .linknav-port:focus,
 .downfooter-port .linknav-port:hover {
-    color: #2196F3;
+  color: #2196f3;
+}
+.portfoot-list {
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 60px;
 }
