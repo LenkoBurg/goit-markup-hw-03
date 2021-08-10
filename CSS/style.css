@@ -80,6 +80,8 @@ ul {
   margin-bottom: 32px;
   margin-top: 32px;
   margin-right: 215px;
+  padding-left: 0px;
+  justify-content: center;
 }
 .auth-nav .linknav-list + .linknav-list {
   margin-left: 50px;
@@ -87,21 +89,24 @@ ul {
 div {
   display: flex;
   align-items: center;
-  height: 80px;
   justify-content: center;
+  margin-left: 0;
 }
-.counteiner {
+.container-one {
   display: flex;
 }
 .header-box {
   height: 80px;
 }
+
 /* header */
+
 .main-title {
   background-color: #2f303a;
   color: #ffffff;
   text-align: center;
   margin-bottom: 94px;
+  margin-right: 0px;
 }
 .main-title .title {
   padding-top: 200px;
@@ -139,6 +144,10 @@ div {
   margin-bottom: 0px;
   display: flex;
   justify-content: center;
+  padding: 0px;
+  margin-left: 215px;
+  margin-right: 215px;
+  width: 1600px;
 }
 .hero .list + .list {
   margin-left: 30px;
@@ -168,6 +177,7 @@ div {
   margin-bottom: 50px;
   text-align: center;
 }
+
 /* skills */
 .all-employee {
   padding-bottom: 94px;
@@ -192,6 +202,7 @@ div {
 .our-team {
   background-color: #f5f4fa;
   padding-top: 94px;
+  margin-left: 0px;
 }
 .main-headlines-bot {
   font-size: 36px;
@@ -272,14 +283,31 @@ div {
   color: #757575;
   display: inline-block;
 }
-.downfooter .linknav:focus,
-.downfooter .linknav:hover {
+.downfooter .linknav-footer:focus,
+.downfooter .linknav-footer:hover {
   color: #2196f3;
+}
+.downfooter {
+  height: 252px;
 }
 /* footeer */
 
 /* Portfolio */
-
+.port-header {
+  display: flex;
+}
+.container {
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  border: 1px solid #ececec;
+}
+.style-nav-port {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding: 0px;
+}
 .logo {
   width: 145px;
   height: 31px;
@@ -294,15 +322,30 @@ div {
 .web {
   color: #2196f3;
 }
-.style-nav .link-current {
+.style-nav-port .link-current {
   font-size: 14px;
   line-height: 16px;
   font-weight: 500;
   color: #2196f3;
   text-decoration: none;
   list-style: none;
+  margin-left: 50px;
+  margin-right: 50px;
 }
-.style-nav .link-port {
+.link-port-left {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #212121;
+  text-decoration: none;
+  list-style: none;
+  margin-left: 93px;
+}
+.link-port-left:focus,
+.link-port-left:hover {
+  color: #2196f3;
+}
+.style-nav-port .link-port {
   font-size: 14px;
   line-height: 16px;
   font-weight: 500;
@@ -310,8 +353,8 @@ div {
   text-decoration: none;
   list-style: none;
 }
-.style-nav .link-port:hover,
-.style-nav .link-port:focus {
+.style-nav-port .link-port:hover,
+.style-nav-port .link-port:focus {
   color: #2196f3;
 }
 .auth-nav .linknav-port {
@@ -326,16 +369,24 @@ div {
 .auth-nav .linknav:hover {
   color: #2196f3;
 }
+.auth-nav .prt-list {
+  margin-right: 50px;
+}
+
+/* header-portfolio */
 .portfolio-nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
 }
-/* header-portfolio */
 .btns {
   margin-top: 94px;
   margin-bottom: 50px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.btns .btns-list + .btns-list {
+  margin-left: 8px;
 }
 .button-port {
   font-family: 'Roboto';
@@ -351,6 +402,18 @@ div {
   background-color: #2196f3;
   color: #ffffff;
   cursor: pointer;
+}
+.imgs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.imgs .image-list + .image-list {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.image-list {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 /* buttons portfolio */
 .image-title {
@@ -373,6 +436,11 @@ div {
 .imgs {
   margin-top: 0px;
   margin-bottom: 94px;
+  justify-content: center;
+}
+.uq {
+  margin-bottom: 30px;
+  margin-left: 30px;
 }
 /*assortment */
 
