@@ -8,7 +8,12 @@
   letter-spacing: 0.03em;
   color: #757575;
 }
-
+address {
+  font-style: normal;
+}
+img {
+  display: block;
+}
 ul {
   list-style: none;
 }
@@ -25,8 +30,6 @@ ul {
 }
 /* global */
 .logo {
-  margin-bottom: 25px;
-  margin-top: 24px;
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -48,6 +51,8 @@ ul {
   margin-bottom: 0px;
   padding-left: 0px;
   justify-content: center;
+  margin-left: 93px;
+  align-items: center;
 }
 
 .style-nav .link-main {
@@ -68,16 +73,11 @@ ul {
   font-weight: 500;
   color: #2f303a;
   text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .list-style {
-  margin-top: 32px;
-  margin-bottom: 32px;
   margin-left: 50px;
-}
-.list-style-main {
-  margin-top: 32px;
-  margin-bottom: 32px;
-  margin-left: 93px;
 }
 .style-nav .link:hover,
 .style-nav .link:focus {
@@ -110,11 +110,11 @@ ul {
   margin-left: 50px;
 }
 .header-box {
-  text-align: center;
   border-bottom: 1px solid #2196f3;
 }
 .flex {
   display: flex;
+  align-items: center;
 }
 /* ===================header=================== */
 
@@ -178,8 +178,8 @@ ul {
   color: #212121;
   font-weight: 700;
   margin-top: 0px;
-  margin-bottom: 0px;
-  padding-bottom: 10px;
+
+  margin-bottom: 10px;
 }
 /* ===============WHAT WE DO================= */
 .main-headlines {
@@ -200,6 +200,9 @@ ul {
   justify-content: center;
   padding: 0px;
   margin-bottom: 0px;
+}
+.img-list {
+  width: 370px;
 }
 /* ==============TEAM============= */
 .all-employee {
@@ -234,9 +237,6 @@ ul {
 
 .employee {
   width: 270px;
-  height: 368px;
-  left: 515px;
-  top: 1635px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -274,7 +274,7 @@ ul {
   color: #ffffff;
   text-decoration: none;
   display: inline-block;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .web {
   color: #2196f3;
@@ -291,6 +291,7 @@ ul {
 .footer-list {
   padding-left: 0px;
   margin: 0px;
+  font-style: normal;
 }
 .linknav-footer {
   font-size: 14px;
@@ -317,27 +318,20 @@ ul {
 /* =================Portfolio================ */
 .port-header {
   display: flex;
+  align-items: center;
 }
 .header-box-port {
   border-bottom: 1px solid #ececec;
 }
 
 .style-nav-port {
+  margin: 0%;
   display: flex;
-  margin-top: 32px;
-  margin-bottom: 32px;
   padding: 0px;
+  margin-left: 93px;
+  align-items: center;
 }
-.logo {
-  width: 145px;
-  font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-  color: black;
-  text-decoration: none;
-}
+
 .web {
   color: #2196f3;
 }
@@ -348,13 +342,16 @@ ul {
   color: #2196f3;
   text-decoration: none;
   list-style: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .list-current {
   margin-left: 50px;
   margin-right: 50px;
 }
-.list-left {
-  margin-left: 93px;
+.link-port {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .link-port-left {
   font-size: 14px;
@@ -363,6 +360,8 @@ ul {
   color: #212121;
   text-decoration: none;
   list-style: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .link-port-left:focus,
 .link-port-left:hover {
@@ -375,6 +374,9 @@ ul {
   color: #212121;
   text-decoration: none;
   list-style: none;
+}
+.list-style-main {
+  margin-left: 50px;
 }
 .style-nav-port .link-port:hover,
 .style-nav-port .link-port:focus {
@@ -404,9 +406,11 @@ ul {
   line-height: 1.62;
 }
 .btns {
-  margin-bottom: 20px;
   display: flex;
   justify-content: center;
+  padding-left: 0px;
+  margin: 0px;
+  margin-bottom: 50px;
 }
 .btns .btns-list + .btns-list {
   margin-left: 8px;
@@ -433,14 +437,8 @@ ul {
   margin-top: 0px;
   padding: 0%;
 }
-.image-list:not(:nth-last-child(-n + 3)) {
-  margin-bottom: 30px;
-}
-.image-list:not(:nth-last-child(3n + 1)) {
-  margin-right: 30px;
-}
+
 .image-list {
-  border: 1px solid #eeeeee;
   box-sizing: border-box;
   min-width: 370px;
 }
@@ -463,6 +461,15 @@ ul {
 }
 .cards-worker {
   padding: 20px 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+.image-list:not(:nth-last-child(3n + 1)) {
+  margin-right: 30px;
+}
+.image-list:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
 }
 /*assortment */
 /* ======================FOOTER==================================== */
