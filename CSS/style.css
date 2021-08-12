@@ -8,6 +8,7 @@
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 ul {
   list-style: none;
 }
@@ -46,11 +47,9 @@ ul {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 0px;
+  justify-content: center;
 }
 
-.style-nav .link {
-  margin-left: 50px;
-}
 .style-nav .link-main {
   font-size: 14px;
   line-height: 16px;
@@ -59,9 +58,8 @@ ul {
   text-decoration: none;
   list-style: none;
   display: block;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  margin-left: 93px;
+  /* margin-top: 32px;
+  margin-bottom: 32px; */
 }
 .style-nav .link {
   display: block;
@@ -70,9 +68,16 @@ ul {
   font-weight: 500;
   color: #2f303a;
   text-decoration: none;
-  list-style: none;
+}
+.list-style {
   margin-top: 32px;
   margin-bottom: 32px;
+  margin-left: 50px;
+}
+.list-style-main {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 93px;
 }
 .style-nav .link:hover,
 .style-nav .link:focus {
@@ -90,22 +95,23 @@ ul {
 .auth-nav .linknav:hover {
   color: #2196f3;
 }
+
+.linknav-list {
+  margin-left: 50px;
+}
 .auth-nav {
   display: flex;
+  align-items: center;
+  padding-left: 0;
+  margin: 0px;
   margin-left: auto;
-  margin-bottom: 32px;
-  margin-top: 32px;
-  padding-left: 0px;
-  justify-content: end;
 }
 .auth-nav .linknav-list + .linknav-list {
   margin-left: 50px;
 }
-
 .header-box {
   text-align: center;
   border-bottom: 1px solid #2196f3;
-  height: 80px;
 }
 .flex {
   display: flex;
@@ -165,7 +171,6 @@ ul {
   margin-top: 0px;
   margin-bottom: 0px;
   width: 270px;
-  height: 75px;
 }
 .hero .headlines {
   font-size: 14px;
@@ -173,7 +178,8 @@ ul {
   color: #212121;
   font-weight: 700;
   margin-top: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
 }
 /* ===============WHAT WE DO================= */
 .main-headlines {
@@ -241,12 +247,19 @@ ul {
   line-height: 19px;
   text-align: center;
   color: #212121;
+  margin-bottom: 10px;
+  margin-top: 0;
 }
 .positions {
   font-size: 16px;
   line-height: 19px;
   font-weight: 400;
   text-align: center;
+  margin: 0px;
+}
+.cards-work {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 /* ==================FOOTER====================== */
 .downfooter {
@@ -279,11 +292,7 @@ ul {
   padding-left: 0px;
   margin: 0px;
 }
-.footer-address {
-  padding-bottom: 60px;
-}
 .linknav-footer {
-  margin-top: 9px;
   font-size: 14px;
   line-height: 16px;
   font-weight: 500;
@@ -292,12 +301,16 @@ ul {
   color: #757575;
   display: inline-block;
 }
+.list-nav {
+  margin-top: 9px;
+}
 .downfooter .linknav-footer:focus,
 .downfooter .linknav-footer:hover {
   color: #2196f3;
 }
 .downfooter {
-  padding-bottom: 0;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 /* footeer */
 
@@ -317,7 +330,6 @@ ul {
 }
 .logo {
   width: 145px;
-  height: 31px;
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -329,15 +341,20 @@ ul {
 .web {
   color: #2196f3;
 }
-.style-nav-port .link-current {
+.link-current {
   font-size: 14px;
   line-height: 16px;
   font-weight: 500;
   color: #2196f3;
   text-decoration: none;
   list-style: none;
+}
+.list-current {
   margin-left: 50px;
   margin-right: 50px;
+}
+.list-left {
+  margin-left: 93px;
 }
 .link-port-left {
   font-size: 14px;
@@ -346,7 +363,6 @@ ul {
   color: #212121;
   text-decoration: none;
   list-style: none;
-  margin-left: 93px;
 }
 .link-port-left:focus,
 .link-port-left:hover {
@@ -426,34 +442,34 @@ ul {
 .image-list {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
-  width: 370px;
-  height: 404px;
+  min-width: 370px;
 }
 .imgs .image-list .image-title {
-  margin-left: 24px;
-  margin-top: 20px;
   margin-bottom: 4px;
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
   color: #212121;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 .description {
-  margin-left: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   margin-top: 0px;
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
 }
-
+.cards-worker {
+  padding: 20px 24px;
+}
 /*assortment */
 /* ======================FOOTER==================================== */
 .logodown-port {
   display: inline-block;
   margin-bottom: 20px;
 
-  margin-top: 60px;
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -467,6 +483,8 @@ ul {
 }
 .downfooter-port {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .address-port {
   color: #ffffff;
@@ -475,7 +493,6 @@ ul {
 }
 .downfooter-port .linknav-port {
   display: inline-block;
-  margin-top: 9px;
   font-size: 14px;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
@@ -487,11 +504,6 @@ ul {
   color: #2196f3;
 }
 .portfoot-list {
-  padding-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-bottom: 60px;
-}
-.linknav-port {
-  margin-top: 9px;
+  padding: 0;
+  margin: 0;
 }
