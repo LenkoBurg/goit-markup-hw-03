@@ -17,6 +17,9 @@ img {
 ul {
   list-style: none;
 }
+p {
+  margin: 0;
+}
 .container {
   width: 1200px;
   padding-left: 15px;
